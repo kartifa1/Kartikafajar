@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* === universal === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background: #cee5d0;
+  display: grid;
+  height: 100%;
+}
+
+/* === Header === */
+
+header {
+  background-color: #22577a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* === Logo === */
+.logo {
+  width: auto;
+  cursor: pointer;
+  margin: 12px 24px;
+  padding: 8px 16px;
+  background-color: #cee5d0;
+  color: #22577a;
+  font-size: 1.5em;
+  font-family: "pacifico";
+  border-radius: 50%;
+}
+/* === nav bar === */
+.nav-bar-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-bar li {
+  padding: 16px 32px;
+}
+
+.nav-bar-items li a {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/* === penutup nav bar === */
+/* === Header === */
+/* --- about me --- */
+/* === Header === */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  padding: 0px 32px;
+}
+
+/* ====== Profil indivindu ====== */
+/* ------ Profil indivindu ------ */
+
+#profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 140px;
+  margin: 0 1.5%;
+}
+
+#profile-picture {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 5px 10px 18px #888888;
+}
+/* ====== penutup Profil indivindu ====== */
+/* ------ penutup Profil indivindu ------ */
+
+#bio {
+  margin-left: 96px;
+}
+
+/* === MEDIA SOSIAL === */
+/* --- MEDIA SOSIAL --- */
+.social-media-container a {
+  margin-right: 16px;
+}
+/*=== severs  ===*/
+/*=== severs  ===*/
+
+/*=== penutup ===*/
+/*=== severs  ===*/
+
+/*=== servis ===*/
+/*=== penutup  ===*/
+/*=== servis ===*/
+/*=== penutup  ===*/
+.title-1 {
+  margin: 24px 0px;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #22577a;
+}
+
+.title-2 {
+  padding-top: 96px;
+  margin-left: 1.5%;
+  font-size: 1.5em;
+  color: #22577a;
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+  font-family: "dancing script";
+}
+
+.title-3 {
+  color: #22577a;
+  margin: 16px 0px;
+  font-size: 1.25em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.title-4 {
+  font-size: 1em;
+  margin: 8px 0px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.25em;
+  line-height: 1.25;
+  margin: 24px 0;
+}
+
+.description {
+  line-height: 1.5;
+  text-align: center;
+  font-family: "merriweather";
+}
+
+/* === garis === */
+/* --- garis --- */
+hr {
+  margin: 32px 1.5%;
+}
+/* --- penutup garis --- */
+/* ====== kemampuan ====== */
+/* ------ skill ------ */
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.skill-card {
+  flex: 0 1 22%;
+  background-color: white;
+  margin: 16px 1.5%;
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.skill-picture {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.skill-title {
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 700;
+  color: #22577a;
+}
+
+/* ====== PORTFOLIO ====== */
+/* ------ PORTFOLIO ------ */
+
+.portfolio-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.portfolio-card {
+  flex: 0 1 97%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 1.5%;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card div {
+  width: 60%;
+  margin-left: 16px;
+}
+
+.portfolio-picture {
+  height: 250px;
+  width: 30%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* ====== penutup folio ====== */
+/* ------ pengalaman ------ */
+/* ====== pengalaman ====== */
+
+.experience-card {
+  background-color: gray;
+  margin: 32px 1.5%;
+  padding: 16px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+/* ====== penutup pengalaman ====== */
+/* ------ pendidikan ------ */
+.education-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+.education-card {
+  flex: 0 1 30%;
+  margin: 16px 1.5%;
+  padding: 16px 16px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.education-picture {
+  height: auto;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.education-info {
+  margin-left: 16px;
+}
+/* ====== penutup pendidikan ====== */
+footer {
+  text-align: center;
+  padding: 32px;
+  background-color: #22577a;
+  color: white;
+}
+
+/* ====== halaman web dikecilkan ====== */
+@media screen and (max-width: 700px) {
+  header {
+    position: static;
+    flex-direction: column;
+  }
+  .nav-bar-items {
+    flex-direction: column;
+    text-align: center;
+  }
+  #profile-container {
+    padding-top: 32px;
+    flex-direction: column;
+  }
+
+  #bio {
+    margin: 16px;
+    padding: 16px 0;
+  }
+
+  .skill-card {
+    flex: 0 1 47%;
+  }
+  .portfolio-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .portfolio-card div {
+    width: 100%;
+  }
+  .portfolio-card div h1,
+  .portfolio-card div p {
+    margin: 16px;
+  }
+  .portfolio-picture {
+    width: 100%;
+    height: auto;
+  }
+  .education-card {
+    flex: 0 1 97%;
+  }
+}
+
+/* test */
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  header {
+    flex-direction: column;
+  }
+  #profile-container {
+    flex-direction: column;
+    padding-top: 170px;
+  }
+  #bio {
+    margin: 16px;
+    padding: 16px 0;
+  }
+  .skill-card {
+    flex: 0 1 30%;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .skill-card {
+    flex: 0 1 30%;
+  }
+}
+
+/*-- jam wkwkw---*/
+.wrappere {
+  text-align: center;
+}
+/*-- ---*/
